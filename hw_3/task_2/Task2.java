@@ -6,6 +6,8 @@ public class Task2 {
     public static void main(String[] args) {
         BigDecimal number2 = new BigDecimal("1.254545");
         BigDecimal number1 = new BigDecimal("1.25454");
+        
+        // не ошибка, но можно обойтись без переменной sum
         BigDecimal sum;
         sum = number1.add(number2);
         System.out.println(number1 + " + " + number2 + " = " + sum);

@@ -7,6 +7,9 @@ public class Task4 {
         vvod(myArray);
 
     }
+    
+    // должен быть шаблон, который распечает метод printF(), например, "My name is %s" и затем вместо %s подставится имя
+    // это было на лекции 5, посмотри там
     static void vvod(String array[]){
         System.out.print("Hi, my name is ");
         System.out.print(array[0]);

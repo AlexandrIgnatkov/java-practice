@@ -1,6 +1,20 @@
 package practice.hw_6.task_1;
 
 public class Auto {
+   // пользуйся переводчиком, но не называй переменные на русском.
+   // motor - это должен быть отдельный класс Motor, у которого свои методы и экземпляр которого (через new Motor(), например
+   // ты затем передашь классу Auto, т.е.
+   /*
+   public class Motor {
+      --- твой код здесь ---
+   }
+   
+   public static void main(String[] args) {
+         Motor motor = new Motor();
+         Car car = new Car(motor, transmission);  <- transmission тоже отдельный класс по принципу с Motor
+         ---  код по управлению авто ---
+   }
+   */
    private int motor = 0;
    private int kpp = 0;
    private int speed = 0;

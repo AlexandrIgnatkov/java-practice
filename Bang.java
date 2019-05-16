@@ -1,7 +1,5 @@
 package practice;
 
-public class Bang {
-    public void hello(){
-        System.out.println("Hello");
-    }
+public abstract class Bang {
+    public abstract void hello();
 }

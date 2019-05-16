@@ -8,5 +8,8 @@ public class Main {
         cat.displayInfo();
         Horse horse = new Horse("Конь",14, "Тяжеловес", "170", true);
         horse.displayInfo();
+        // --------------
+        AnimalPrint animalPrint = new AnimalPrint(dog, cat, horse);
+        animalPrint.printInfo();
     }
 }

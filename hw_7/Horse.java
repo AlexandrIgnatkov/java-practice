@@ -19,6 +19,7 @@ class Horse extends Animal{
 
     @Override
     public void displayInfo() {
+        System.out.println();
         super.displayInfo();
         System.out.print("\tВысота: "+ getHeight() +  "\tНосит ли подковы? " + getWearsHorseShoe());
     }

@@ -21,6 +21,6 @@ class Dog extends Animal {
     public void displayInfo() {
         System.out.println();
         super.displayInfo();
-        System.out.print("Длина: " + getTailLength()+ "\tРазмер: " + getSize());
+        System.out.print("\tДлина: " + getTailLength()+ "\tРазмер: " + getSize());
     }
 }

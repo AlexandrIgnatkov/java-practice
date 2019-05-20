@@ -3,6 +3,7 @@ package practice.hw_8.task1;
 import java.util.Scanner;
 
 public class Input {
+   // имя метода с опечаткой
    public int inputHosue(){
        boolean condition = true;
        int num = 0;

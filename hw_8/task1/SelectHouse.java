@@ -1,5 +1,6 @@
 package practice.hw_8.task1;
 
+// SelectHouse пришлось гуглить, но вроде есть такой дом. Вообще имя класса - это имя существительное
 public class SelectHouse extends House {
     private int garage;
     private int fence;

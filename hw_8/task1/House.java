@@ -8,6 +8,8 @@ public class House {
         this.design = design;
         this.floor = floor;
     }
+    
+    // для таких целей стоить переопределять метод toString()
     public void printHouse(){
         System.out.print("Дизайн дома: ");
         if (design==1){
